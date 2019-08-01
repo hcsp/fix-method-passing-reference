@@ -20,5 +20,6 @@ public class Home {
     }
 
     public static void newCat() {
+
     }
 }
