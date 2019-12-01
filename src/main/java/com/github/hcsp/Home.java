@@ -15,6 +15,10 @@ public class Home {
     }
 
     public static void newCat(Cat cat) {
+
+    }
+
+    public static void newCat() {
         cat = new Cat("Tom");
     }
 }
