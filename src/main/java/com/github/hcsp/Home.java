@@ -11,6 +11,7 @@ public class Home {
         // 我们想要在这里创建一只新的Cat，但是似乎没有生效
         // 思考一下为什么并修复这个问题，使得程序输出"Cat(Tom)"
 
+
         newCat();
         System.out.println(cat);
     }
