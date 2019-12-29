@@ -7,7 +7,7 @@ public class HomeTest {
     @Test
     public void referencePassingTest() {
         Assertions.assertEquals(null, Home.cat);
-//        Home.newCat();
+        Home.newCat();
         Assertions.assertEquals("Cat(Tom)", Home.cat.toString());
     }
 }
