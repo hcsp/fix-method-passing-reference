@@ -13,7 +13,6 @@ public class Home {
         newCat();
         System.out.println(cat);
     }
-
     public static void newCat() {
         cat = new Cat("Tom");
     }
