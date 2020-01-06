@@ -14,7 +14,7 @@ public class Home {
         System.out.println(cat);
     }
 
-    public static Cat newCat() {
+    public static void newCat() {
         cat = new Cat("Tom");
     }
 }
