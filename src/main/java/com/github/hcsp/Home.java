@@ -4,7 +4,6 @@ import com.github.hcsp.pet.Cat;
 
 public class Home {
     public static Cat cat;
-
     public static void main(String[] args) {
         // We want to create a new Cat, but it doesn't seem to be working
         // Think why and fix the code to make the program output "Cat(Tom)"
@@ -15,6 +14,6 @@ public class Home {
     }
 
     public static void newCat() {
-       cat = new Cat("Tom");
+        cat = new Cat("Tom");
     }
 }
