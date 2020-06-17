@@ -10,11 +10,12 @@ public class Home {
         // Think why and fix the code to make the program output "Cat(Tom)"
         // 我们想要在这里创建一只新的Cat，但是似乎没有生效
         // 思考一下为什么并修复这个问题，使得程序输出"Cat(Tom)"
-        newCat(cat);
-        System.out.println(cat);
+        newCat();
+
     }
 
-    public static void newCat(Cat cat) {
+    public static void newCat() {
         cat = new Cat("Tom");
+        System.out.println(cat);
     }
 }
