@@ -10,7 +10,7 @@ public class HomeTest {
     @Test
     public void referencePassingTest() {
         Assertions.assertEquals(null, cat);
-        Home.newCat(cat);
+        Home.newCat();
         Assertions.assertEquals("Cat(Tom)", cat.toString());
     }
 }
