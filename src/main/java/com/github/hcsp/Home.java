@@ -12,7 +12,6 @@ public class Home {
         // 思考一下为什么并修复这个问题，使得程序输出"Cat(Tom)"
 //        cat = new Cat("Tom");
         newCat();
-
         System.out.println(cat);
     }
 
