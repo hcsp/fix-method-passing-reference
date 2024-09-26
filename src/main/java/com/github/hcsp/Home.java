@@ -15,6 +15,8 @@ public class Home {
     }
 
     public static void newCat(Cat cat) {
-        cat = new Cat("Tom");
+
+         cat = new Cat("Tom");
+         Home.cat = cat;
     }
 }
