@@ -3,7 +3,7 @@ package com.github.hcsp;
 import com.github.hcsp.pet.Cat;
 
 public class Home {
-    public static Cat cat;
+    public static Cat cat = new Cat("Tom");;
 
     public static void main(String[] args) {
         // We want to create a new Cat, but it doesn't seem to be working
@@ -15,6 +15,6 @@ public class Home {
     }
 
     public static void newCat(Cat cat) {
-        cat = new Cat("Tom");
+       // cat = new Cat("Tom");
     }
 }
